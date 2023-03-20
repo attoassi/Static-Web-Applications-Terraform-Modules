@@ -72,3 +72,12 @@ module "ecs" {
   private_app_subnet_az2_id    = module.vpc.private_app_subnet_az2_id
   ecs_security_group_id        = module.security_group.ecs_security_group_id
 }
+
+# Create record set in route 53
+module "route 53" {
+  source                             = "../modules/route 53"
+  domain_name                        = module.acm.domain_name
+  record_name                        = var.record_name
+  application_load_balancer_dns_name = module.application_load_balancer.application_load_balancer_dns_name
+  application_load_balancer_zone_id  = module.application_load_balancer.application_load_balancer_zone_id
+}
