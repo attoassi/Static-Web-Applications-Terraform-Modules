@@ -45,9 +45,9 @@ module "ecs_tasks_execution_role" {
 
 # Create ssl certificate
 module "acm" {
-  source            = "../modules/acm"
-  domain_name       = var.domain_name
-  alternative_names = var.alternative_names
+  source           = "../modules/acm"
+  domain_name      = var.domain_name
+  alternative_name = var.alternative_name
 }
 
 # Create application load balancer
