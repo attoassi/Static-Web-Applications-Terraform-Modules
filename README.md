@@ -1,2 +1,2 @@
 # TERRAFORM-MODULES
-This a Repository to store our terraform scripts code for automating the deployment of a static web application on AWS with Docker, Amazon ECS, Amazon ECR.
+This a Repository to store our terraform scripts for automating the deployment of static web applications on AWS with Docker, Amazon ECS, Amazon ECR.
