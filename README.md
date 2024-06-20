@@ -1,2 +1,2 @@
 # Terraform-Modules
-This Repository contains the terraform scripts for automating the deployment of static web applications on AWS with Docker, Amazon ECS, Amazon ECR.
+This repository contains the Terraform scripts used to automate the deployment of static web applications to AWS using Docker, Amazon ECS, Amazon ECR.
